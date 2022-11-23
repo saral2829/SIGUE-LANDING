@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+:root{
+    --color-orange:#ff6600;
+    --color-azul:#003399;
+    --color-gris:#606060;
+    --color-blanco:white;
+    --font-title:'Josefin Sans', sans-serif;
+
+}
+
+.text--title{
+    font-size: 2.0rem;
+    font-family: var(--font-title);
+    font-weight: 700;
+    
+}
+h3 .text--parrafo , .text--parrafo{
+    font-size:1.5rem;
+    font-family:var(--font-title);
+    font-weight: 400;
+}
+ul .text--parrafo{
+    font-size: 1.0rem;
+}
+.text--title-header{
+    font-size: 1.0rem;
+    font-family: var(--font-title);
+    font-weight: bold;
+}
+.text--title-header:hover{
+color: white;
+}
+.color-or {
+    color: var(--color-orange);
+
+}
+.color-white{
+    color: var(--color-blanco);
+}
+.color-gris {
+    color: var(--color-gris);
+
+}
+.color-blue {
+    color: var(--color-azul);
+
+}
+.bg-ora{
+    background-color: var(--color-orange);
+}
+.bg--blue{
+    background-color: var(--color-azul);
+}
+.bg--black{
+    background-color:black !important;
+}
+.pricing-box{
+    box-shadow: #0000008f 2px 2px 5px 2px;
+}
+.button--serv{
+    background-color: var(--color-azul)!important;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    outline: 0;
+    white-space: nowrap;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+.button--serv:hover{
+   box-shadow: rgba(0, 0, 0, 0.303) 5px 5px 8px 8px;
+   color: white;
+}
+input.switch-toggle-round:checked+label::before {
+    background-color: var(--color-orange);
+}
+.text--pricing span{
+    font-size: 1.2rem;
+    font-family: var(--font-title);
+    font-weight: 700;
+    vertical-align: top;
+    color: black!important;
+}
+.text--pricing{
+    font-size: 3.8rem;
+    font-family: var(--font-title);
+    font-weight: 500;
+    color: black!important;
+}
+.button{
+    border: none;
+    background-color: var(--color-orange);
+}
+.button:hover {
+    background-color: var(--color-azul)!important;
+}
+.link-button:hover{
+    background-color: var(--color-azul)!important;
+    color: white;
+    border-radius: 10px;
+    margin:8px;
+}
+.owl-dot{
+    background-color: var(--color-blanco)!important;
+}
+.card-service{
+    background-color: white;
+    border-radius: 10px;
+    /* border-style: groove black; */
+    box-shadow: rgba(0, 0, 0, 0.217) 0px 0px 2px 0px; 
+}
+
+/* .card-service:hover{
+    box-shadow: rgba(0, 0, 0, 0.259) 5px 0px 2px 2px ;
+    padding:20px; 
+} */
+
+.i-plain:hover{
+    color: var(--color-orange);
+}
+
+.text-form{
+    font-family:var(--font-title);
+    font-size:0.8rem;
+    font: weight 600px;
+}
+
+@media only screen and (min-width:992px){
+    form{
+
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top:5%;
+    /* border: solid 1px #ff6600; */
+    border-radius: 10px;
+    padding:5%;
+    padding-bottom: 10%;
+    box-shadow: #0000002f 2px 0px 2px 5px;
+ }
+    
+}
